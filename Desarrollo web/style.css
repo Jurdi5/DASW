@@ -1,0 +1,17 @@
+    body {background-color: blue;}
+    p {color: yellow; line-height: 5;}
+    h1{color:aqua; direction: rtl;}
+    .Precio{color:yellowgreen;line-height: 14;}
+    #Descripción{color:blueviolet}
+    .Precio:hover{color: #fc0707;}
+    label::first-letter{background-color: yellow;}
+    ::selection{background-color: blueviolet; color: rgb(245, 139, 10);}
+    label~p{color: green;}
+    #w{size: 40;color: #fc0707 !important;}
+    #s{width: 20px;}
+    div{border: 3px solid; color: green; margin: 4px;}
+    
+
+
+
+

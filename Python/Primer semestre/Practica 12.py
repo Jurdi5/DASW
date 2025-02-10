@@ -1,0 +1,6 @@
+valor1 = eval(input("valor 1: "))
+valor2 = eval(input("valor 2: "))
+valor3 = eval(input("valor 3: "))
+valor4 = eval(input("valor 4: "))
+print(valor1, valor2,valor3,valor4,sep="+",end="\n=")
+print(valor1+valor2+valor3+valor4,end="!")

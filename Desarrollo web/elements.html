@@ -1,0 +1,208 @@
+<!-- Headers -->
+
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<h4>Header 4</h4>
+<h5>Header 5</h5>
+<h6>Header 6</h6>
+
+
+<!-- Parrafos -->
+
+<p>Párrafo 1</p>
+<p>Párrafo 2 <b>otra línea</b></p>
+
+<br>Texto en negrita <b>bold</b>
+<br>Texto en cursiva <i>italic</i>
+<br>Texto subrayado <u>underline</u>
+<br>Texto tachado <s>strike</s>
+<br>Texto en <strong>strong</strong>
+<br>Texto en <em>emphasis</em>
+<br>Texto resaltado <mark>mark</mark>
+<br>Texto pequeño <small>small</small>
+<br>Subíndice <sub>sub</sub>
+<br>Superíndice <sup>sup</sup>
+
+<code>const var = 10</code><br>
+<abbr title="hola">mostrar tooltip</abbr><br>
+<blockquote>cita</blockquote>
+<pre>
+  Texto
+    sin
+      formato
+</pre>
+
+
+<!-- listas desordenadas -->
+
+<ul>
+  <li>item 1</li>
+  <li>item 2</li>
+  <li>item 3</li>
+  <li>item 4</li>
+</ul>
+<ul>
+  <li>item 5</li>
+  <li>
+    <ul>
+      <li>sub-item 1</li>
+      <li>sub-item 2</li>
+      <li>
+        <ul>
+          <li>sub-sub-item 1</li>
+          <li>sub-sub-item 2</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+<!-- listas ordenadas -->
+
+<ol>
+  <li>item 1</li>
+  <li>item 2</li>
+</ol>
+<ol start="8">
+  <li>item 3</li>
+  <li>item 4</li>
+</ol>
+<ol start="8" reversed>
+  <li>item 5</li>
+  <li>item 6</li>
+</ol>
+<ol start="3" type="i">
+  <li>item 5</li>
+  <li>item 6</li>
+</ol>
+
+
+<!-- Imagenes -->
+
+<img src="image.png" alt="html icon" height="100px" width="200">
+<img src="image.png" alt="html icon" height="100px" width="100">
+<img src="image.png" alt="html icon" height="100px">
+<img src="error.png" alt="error icon" height="100px">
+
+
+<!-- links -->
+
+<a href="https://www.google.com" target="_blank">Ir a Google</a> <br><br>
+<a href="#seccion1">Ir a la sección 1</a> <br><br>
+<a href="Session 2. HTML.pdf" download>Descargar archivo PDF</a> <br><br>
+<a href="tel:+1234567890">Llamar al +1 234 567 890</a> <br><br>
+<a href="mailto:correo@ejemplo.com?subject=Hola&body=Este%20es%20un%20mensaje">Enviar correo</a> <br><br>
+<a href="image.png">Abrir el imagen</a> <br><br>
+<a href="#">Enlace sin destino</a> <br><br>
+
+<h2 id="seccion1">Esta es la Sección 1</h2>
+<p>Este es el contenido al que te lleva el enlace de anclaje.</p>
+
+<!-- Tablas -->
+
+<table border="1">
+  <tr>
+    <th>Encabezado 1</th>
+    <th>Encabezado 2</th>
+  </tr>
+  <tr>
+    <td>Fila 1, Celda 1</td>
+    <td>Fila 1, Celda 2</td>
+  </tr>
+  <tr>
+    <td>Fila 2, Celda 1</td>
+    <td>Fila 2, Celda 2</td>
+  </tr>
+</table>
+
+<table border="1" width="400" height="200">
+  <caption>Esta es la leyenda de la tabla</caption>
+  <thead>
+    <tr>
+      <th>Encabezado 1</th>
+      <th>Encabezado 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Celda (1,1)</td>
+      <td>Celda (1,2)</td>
+    </tr>
+    <tr>
+      <td>Celda (2,1)</td>
+      <td>Celda (2,2)</td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="1" width="50%">
+  <tr>
+    <th colspan="2">título</th>
+  </tr>
+  <tr>
+    <td rowspan="2" width="50%">dato1</td>
+    <td>dato2</td>
+  </tr>
+  <tr>
+    <td>dato2</td>
+  </tr>
+</table>
+
+
+<!-- Formularios e inputs -->
+
+<form action="">
+  <label for="nombre">Nombre:</label>
+  <input id="nombre" type="text" name="nombre">
+  <br>
+  <br>
+  Comentario:
+  <textarea name="mensaje" rows="2" cols="30">Texto más largo con scroll</textarea>
+  <br>
+  <br>
+  <input type="submit" value="Guardar">
+</form>
+
+<form>
+  text:
+  <input type="text" name="nombre"> <br><br>
+  password:
+  <input type="password" name="contraseña"> <br><br>
+  number:
+  <input type="number" name="cantidad"> <br><br>
+  email:
+  <input type="email" name="correo"> <br><br>
+  file:
+  <input type="file" name="archivo"> <br><br>
+  image:
+  <input type="image" src="image.png" height="100"> <br><br>
+  color:
+  <input type="color" name="color"> <br><br>
+  date:
+  <input type="date" name="fecha"> <br><br>
+</form>
+
+<form>
+  search:
+  <input type="search" name="busqueda"> <br><br>
+  checkbox:
+  <input type="checkbox" name="chk1"> <br><br>
+  radio:
+  <input type="radio" name="opcion" value="1"> <br><br>
+  range:
+  <input type="range" name="rango"> <br><br>
+  button:
+  <input type="button" value="Botón"> <br><br>
+  submit:
+  <input type="submit" value="Enviar"> <br><br>
+</form>
+
+<input list="lista" name="testLista">
+<datalist id="lista">
+  <option value="opción 1">
+  <option value="opción 2">
+  <option value="opción 3">
+  <option value="opción 4">
+</datalist>

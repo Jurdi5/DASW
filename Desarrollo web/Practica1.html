@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- Define que el doc utiliza HTML5-->
+<html lang="en">
+<!-- La etiqueta raiz del doc el archivo "lang" especifica el idioma principal de la pagina-->
+<head>
+<!-- Contiene metadatos y configuraciones no visibles en la paguina-->
+    <meta charset="UTF-8">
+    <!-- Especifica la codificación de caracteres como UTF-8 para soportar caracteres de múltiples idiomas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+    <!-- Para generar una lista de manera rápida ul>li*N (ul es el comando para generar una lista)-->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!-- p{Parrafo} es para crear un parrafo y lo que este dentro de las llaves sera el parrafo-->
+    <p>Esto es un parrafo</p>
+    <!--div>p{esto tiene}-->
+    <div>
+        <p>esto tiene</p>
+    </div>
+    <!--div>ul>li*N-->
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!--div*5-->
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <!--h1{Mi titulo}-->
+    <h1>Practica1</h1>
+    <!--Los headers se definen por h1,h2,h3 y si el numero es mas grande entonces el header sera mas pequeño-->
+    <h2>Titulo 2</h2>
+    <!--docs.emmet.io/cheat-sheet/-->
+    <docs class="emmet io">
+    <cheat-sheet>
+    <abbr tittle="hola"> mostrar tooltip</abbr>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+    <ul>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </ul>
+    <img scr="./perro.webg" alt="html icon" height="25px" width="20"><br>
+
+    <a href="https://www.msn.com/es-mx?ocid=wispr&pc=u477&AR=1" target="_blank">Ir a google</a><br>
+    <table border="1">
+        <tr>
+            <th>Encabezado</th>
+            <th>Encabezado 2</th>
+        </tr>
+        <tr>
+            <td>Fila 1, celda 1</td>
+            <td>Fila 1, celda 2</td>
+        </tr>
+        <tr>
+            <td>Fila 2, celda 1</td>
+            <td>Fila 2, celda 2</td>
+        </tr>
+    </table>
+    <form action="">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" name="nombre">
+        <br>
+        <br>
+        cometario:
+        <textarea name="mensaje" rows="2" cols="30">Texto mas largo con scroll</textarea>
+        <br>
+        <br>
+        <input type="submit" value="Guardar"><br>
+    </form>    
+
+    <form>
+        text:<br>
+
+        <input type="email" name="correo"> <br>
+        <input type="password" name="contraseña"><br>
+        <select name="select">
+            <option value="opc1">Opcion 1</option>
+            <option value="opc2" selected>Opción 2</option>
+        </select>
+        <br>
+        <input list="lista" name="testLista">
+        <datalist id="lista">
+            <option value="opción 1">
+            <option value="opción 2">
+            <option>hola</option>
+        </datalist>
+        <br>
+    </form>
+</body>
+</html>
