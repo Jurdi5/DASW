@@ -1,0 +1,7 @@
+body {background-color: black;}
+.text-body-secondary {
+    background-color: rgba(56, 56, 247, 0.685);
+    color:blue;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;}
